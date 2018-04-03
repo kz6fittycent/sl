@@ -2,7 +2,7 @@ name: soultrain # check to see if it's available
 version: '1.0+git' # check versioning
 summary: Make a mistake and ride the Soul Train # 79 char long summary
 description: |
-  SOOOOOOOOOOOOOOOOUUUUUUUUUUUL TRAAAAAAAAAAIINNN!! 
+  SOOOOOOOOOOOOOOOOUUUUUUUUUUUL TRAAAAAAAAAAIINNN!
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
 
