@@ -1,1 +1,19 @@
+name: soultrain # check to see if it's available
+version: '1.0+git' # check versioning
+summary: Make a mistake and ride the Soul Train # 79 char long summary
+description: |
+  SOOOOOOOOOOOOOOOOUUUUUUUUUUUL TRAAAAAAAAAAIINNN!! 
+grade: stable # must be 'stable' to release into candidate/stable channels
+confinement: strict # use 'strict' once you have the right plugs
 
+apps:
+  soultrain:
+    command: sl
+    plugs:
+      - home
+     
+parts: 
+  my-part:
+    source-type: git
+    plugin: make
+    source: https://github.com/kz6fittycent/sl
