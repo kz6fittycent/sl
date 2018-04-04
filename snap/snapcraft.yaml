@@ -21,6 +21,13 @@ parts:
     build-packages:
       - libncurses5
       - gcc
+      - libtinfo5 
+      - libc6
+      - libtinfo5 
       
     stage-packages:
       - libncurses5
+      - gcc
+      - libtinfo5 
+      - libc6
+      - libtinfo5 
