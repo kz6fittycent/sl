@@ -20,3 +20,6 @@ parts:
     
     build-packages:
       - libncurses5
+      
+    stage-packages:
+      - libncurses5
