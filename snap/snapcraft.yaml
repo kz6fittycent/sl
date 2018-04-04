@@ -15,7 +15,7 @@ apps:
 parts: 
   my-part:
     source-type: git
-    plugin: make
+    plugin: autotools
     source: https://github.com/kz6fittycent/sl
     
     build-packages:
