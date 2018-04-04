@@ -19,7 +19,7 @@ parts:
     source: https://github.com/kz6fittycent/sl
     
     build-packages:
-      - libncurses5
+      - libncurses5-dev
       - gcc
       - libtinfo5 
       - libc6
