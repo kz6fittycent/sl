@@ -23,6 +23,3 @@ parts:
       - gcc
       - libtinfo5 
       - libc6
-    
-    install: |
-      make install
