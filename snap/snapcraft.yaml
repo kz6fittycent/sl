@@ -25,4 +25,4 @@ parts:
       - libc6
     
     install: |
-    make install
+      make install
